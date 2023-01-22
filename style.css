@@ -1,213 +1,186 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700;900&display=swap');
 
-
 *{
-  box-sizing: border-box;
-  margin: 0;
+	box-sizing: border-box;
+	margin: 0;
 }
-
 
 body{
-  font-family: 'Cinzel', serif;
-  font-weight: 500;
-  width: 100%;
-  height: 100%;
-  overflow-x:hidden;
-  padding: 0;
+	font-family: 'Cinzel', serif;
+	font-weight: 500;
+	width: 100%;
+	height: 100%;
+	overflow-x:hidden;
+	padding: 0;
 }
-
 
 .gigaDiv{
-  position: fixed;
-  z-index: -1;
-  height: 100vh;
-  width: 100%;
-  background-image: url("kosciol1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+	position: fixed;
+	z-index: -1;
+	height: 100vh;
+	width: 100%;
+	background-image: url("kosciol1.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 .mainDivDiv{
-  padding: 5rem 0;
+	padding: 5rem 0;
 }
-
 
 .kolumna1 h1{
-  text-align: center;
-  border-bottom: rgba(0, 0, 0, 0.651) 5px dotted;
-  padding-bottom: 10px;
+	text-align: center;
+	border-bottom: rgba(0, 0, 0, 0.651) 5px dotted;
+	padding-bottom: 10px;
 }
-
 
 .titlePodstrona{
-  text-align: center;
-  padding-bottom: 3rem;
-  font-size: 3rem;
-  text-shadow: rgb(77, 50, 1) 0px 0px 10px;
+	text-align: center;
+	padding-bottom: 3rem;
+	font-size: 3rem;
+	text-shadow: rgb(77, 50, 1) 0px 0px 10px;
 }
-
 
 .title{
-  text-align: center;
-  text-shadow: rgb(238, 155, 0) 0px 0px 5px;
-  padding-bottom:3rem;
-  font-weight: bolder;
-  font-size: 4rem;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(45deg, #ff0000, #3f2200);
+	text-align: center;
+	text-shadow: rgb(238, 155, 0) 0px 0px 5px;
+	padding-bottom:3rem;
+	font-weight: bolder;
+	font-size: 4rem;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-image: linear-gradient(45deg, #ff0000, #3f2200);
 }
-
 
 .mainDiv{
-  min-width: 800px;
-  width: 50%;
-  margin: 0 auto;
-  background-color:rgb(211, 211, 211);
-  padding: 3rem;
-  padding-right: 1rem;
-  border-radius: 3rem;
-  background-image: url("papirus.jpg");
-  box-shadow: 0px 0px 100px rgb(238, 255, 0),0px 0px 50px rgb(238, 255, 0) inset;
-  display: flex;
-  flex-direction: column;
+	min-width: 800px;
+	width: 50%;
+	margin: 0 auto;
+	background-color:rgb(211, 211, 211);
+	padding: 3rem;
+	padding-right: 1rem;
+	border-radius: 3rem;
+	background-image: url("papirus.jpg");
+	box-shadow: 0px 0px 100px rgb(238, 255, 0),0px 0px 50px rgb(238, 255, 0) inset;
+	display: flex;
+	flex-direction: column;
 }
-
 
 .kolumnyPojemnik{
-  display: flex;
+	display: flex;
 }
-
-
 
 
 .kolumna1{
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  flex-basis: 70%;
-  line-height: 1.75rem;
-  font-size: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	flex-basis: 70%;
+	line-height: 1.75rem;
+	font-size: 20px;
 }
 .kolumna2{
 
-
-  flex-basis: 30%;
-  padding: 2rem 1rem 2rem;
-
+	flex-basis: 30%;
+	padding: 2rem 1rem 2rem;
 
 }
-
 
 .image-div {
-  display: flex;
-  align-items: center; /* center the items vertically */
-  padding: 1rem;
-  box-shadow: #000 0px 0px 5px;
+	display: flex;
+	align-items: center; /* center the items vertically */
+	padding: 1rem;
+	box-shadow: #000 0px 0px 5px;
 }
-
 
 .image {
-  max-width: 100%; /* to make sure the image does not exceed the div size */
+	max-width: 100%; /* to make sure the image does not exceed the div size */
 }
-
 
 .side-menu {
-  position:fixed;
-  top: 5rem;
-  left: 7rem;
-  z-index: 1;
-  padding: 2rem;
-  width:20%;
-  list-style-type:none;
-  background-color:rgb(65, 65, 75);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  font-weight: 900;
-  font-size: 1.5rem;
-  text-decoration: none;
-  background-image: url("papirus.jpg");
-  box-shadow: #eeff00 0 0 50px inset,#eeff00 0 0 50px;
-  border-radius: 25px;
-
+	position:fixed;
+	top: 5rem; 
+	left: 7rem; 
+	z-index: 1; 
+	padding: 2rem;
+	list-style-type:none;
+	background-color:rgb(65, 65, 75);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	font-weight: 900;
+	font-size: 1.5rem;
+	text-decoration: none;
+	background-image: url("papirus.jpg");
+	box-shadow: #eeff00 0 0 50px inset,#eeff00 0 0 50px;
+	border-radius: 25px;
 
 }
-
 
 .side-menu li{
-  text-align: center;
+	text-align: center;
 }
-
 
 .side-menu li:nth-child(5),.side-menu li:nth-child(7){
-  border-bottom: #000 3px dashed;
-  padding-bottom: 1rem;
+	border-bottom: #000 3px dashed;
+	padding-bottom: 1rem;
 }
-
-
 
 
 .footer{
-  font-weight: bolder;
-  text-align: center;
-  font-size: 1.25rem;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 1.25rem;
 }
-
 
 .container{
-  display: none;
+	display: none;
 }
-
 
 .hover-div{
-  font-size: 3rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+	font-size: 3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
-
-
 
 
 @media only screen and (max-width: 1600px) {
 
-
-  .side-menu{
-    position: static;
-    font-size: 2rem;
-    display: none;  
-  }
- 
-  .menu {
-    background-image: url("papirus.jpg");
-    height: 0;
-    overflow: hidden;
-    transition: height 0.5s ease;
-    text-decoration: none;
-    list-style-type:none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.75rem;
-    font-weight: 700;
-    box-shadow: #eeff00 0 0 50px inset,#eeff00 0 0 50px;
-  }
-
+	.side-menu{
+		position: static;
+		font-size: 2rem;
+		display: none;	
+	}
+	
+	.menu {
+		background-image: url("papirus.jpg");
+		height: 0;
+		width: 100%;
+		overflow: hidden;
+		transition: height 0.5s ease;
+		text-decoration: none;
+		list-style-type:none;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		font-size: 1.75rem;
+		font-weight: 700;
+		box-shadow: #eeff00 0 0 50px inset,#eeff00 0 0 50px;
+	}
 
   .hover-div:hover + .menu,.menu:hover {
     height: 400px;
   }
 
-
-  .container{
-    background-image: url("papirus.jpg");
-    display:block;
-    box-shadow: #eeff00 0 0 50px inset,#eeff00 0 0 50px;
-  }
+	.container{
+		background-image: url("papirus.jpg");
+		display:block;
+		box-shadow: #eeff00 0 0 50px inset,#eeff00 0 0 50px;
+	}
 }
 
