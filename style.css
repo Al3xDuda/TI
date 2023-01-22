@@ -127,7 +127,15 @@ body{
 	border-bottom: #000 3px dashed;
 	padding-bottom: 1rem;
 }
+.gigaDivNocny{
+	background-image: url("kosciol2.jpeg");
+}
 
+.cienie{
+	box-shadow: #ff0000 0 0 50px inset,#ff0101 0 0 50px;
+	background-image: url("black.jpg");
+	color: white;
+}
 
 .footer{
 	font-weight: bolder;
@@ -145,6 +153,35 @@ body{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+
+button{
+	background-color:black;
+	color: white;
+	position:fixed;
+	bottom: 0;
+	right: 0;
+
+
+	padding: 1rem;
+	border-radius: 1rem;
+	border: none;
+	font-size: 1.5rem;
+	font-weight: 900;
+	cursor: pointer;
+	box-shadow: 0px 0px 10px rgb(238, 255, 0);
+	transition: 0.5s;
+	z-index: 1;
+
+
+
+
+}
+
+.mystyle{
+	background-color: black;
+	z-index: -1;
 }
 
 
